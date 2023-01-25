@@ -50,7 +50,7 @@ layout = [[sg.Text("Host:"), sg.Input(key='-IPADDR-')],
                                     [sg.Text(size=(5,1)), sg.Button('Up')],
                                     [sg.Button('Left'), sg.Button('Select'), sg.Button('Right')],
                                     [sg.Text(size=(4,1)), sg.Button('Down')],
-                                    [sg.Button('<--'),sg.Button('Play'),sg.Button('-->')]
+                                    [sg.Text(size=(0,1)),sg.Button('<--'),sg.Button('Play'),sg.Button('-->')]
                                    ]
           ],
           [sg.Text(size=(40,1), key='-OUTPUT-'), sg.Button('Quit')]
